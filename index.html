@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Viviendas en Ávila</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .property {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .property img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .property h2 {
+            margin-top: 0;
+        }
+        .property p {
+            color: #666;
+        }
+        .property .price {
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-it works!
+<header>
+    <h1>Venta de Viviendas en Ávila</h1>
+</header>
+<nav>
+    <a href="#home">Inicio</a>
+    <a href="#properties">Propiedades</a>
+    <a href="#contact">Contacto</a>
+</nav>
+<div class="container">
+    <section id="properties">
+        <article class="property">
+            <img src="https://via.placeholder.com/800x400" alt="Casa en Ávila">
+            <h2>Casa en el centro de Ávila</h2>
+            <p>Hermosa casa en el centro de Ávila, con 3 habitaciones, 2 baños y un amplio jardín.</p>
+            <p class="price">€250,000</p>
+        </article>
+        <article class="property">
+            <img src="https://via.placeholder.com/800x400" alt="Apartamento en Ávila">
+            <h2>Apartamento moderno</h2>
+            <p>Moderno apartamento en una zona tranquila, con 2 habitaciones, 1 baño y una cocina equipada.</p>
+            <p class="price">€150,000</p>
+        </article>
+        <!-- Agrega más propiedades aquí -->
+    </section>
+</div>
+<footer>
+    <p>&copy; 2024 Venta de Viviendas en Ávila. Todos los derechos reservados.</p>
+</footer>
 </body>
 </html>
